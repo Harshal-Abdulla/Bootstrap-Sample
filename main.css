@@ -1,0 +1,148 @@
+.header {
+    background-image: url('https://images.unsplash.com/photo-1740166260070-4d129541aa52?q=80&w=2835&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+.overlay::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+.description {
+	left: 50%;
+	position: absolute;
+	top: 45%;
+	transform: translate(-50%, -55%);
+	text-align: center;
+}
+.description h1 {
+	color: #B5C18E;
+    font-weight: 700;
+}
+.description p {
+	color: #EAE7DC;
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+.description a {
+    border: 1px solid #A4B494; 
+    background: #A4B494;
+    color: #fff;
+    padding: 10px 20px;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+}
+
+.description a:hover {
+    border: 1px solid #fff;
+    background: #EAE7DC; 
+    color: #2C3639; 
+}
+
+
+.features {
+	margin: 4em auto;
+	padding: 1em;
+	position: relative;
+}
+.feature-title {
+	color: #333;
+	font-size: 1.3rem;
+	font-weight: 700;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+.img-fluid {
+	-webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	margin-bottom: 16px;
+}
+.features .form-control,
+.features input {
+	border-radius: 0;
+}
+.features .btn {
+    background-color: #589b37;
+    border: 1px solid #589b37;
+    color: #fff;
+    margin-top: 20px;
+}
+.features .btn:hover {
+    background-color: #1F2326;
+    border: 1px solid #1F2326;
+}
+.background {
+	background: #F5F5F5;
+	padding: 4em 0;
+}
+.team {
+	color: #2C3639;
+	padding: 0 180px;
+}
+.team-title {
+    text-align: center; /* Centers the text */
+    font-size: 2rem; /* Makes it more prominent */
+    font-weight: 700; /* Adds emphasis */
+    margin-bottom: 1.5em; /* Adds spacing below the title */
+    color: #2C3639; /* Soft off-white for a matte effect */
+}
+.team .card-columns {
+	-webkit-column-count: 4;
+	-moz-column-count: 4;
+	column-count: 4;
+}
+.team .card {
+	background:none;
+	border: none;
+}
+.team .card-title {
+	font-size: 1.3rem;
+	color: #2C3639;
+	margin-bottom: 0;
+	text-transform: uppercase;
+}
+.page-footer {
+    background-color: #222;
+    color: #ccc;
+    padding: 60px 0 30px;
+}
+.footer-copyright {
+    color: #666;
+    padding: 40px 0;
+}
+@media (max-width: 575.98px) {
+    .description {
+        left: 0;
+        padding: 0 15px;
+        position: absolute;
+        top: 10%;
+        transform: none;
+        text-align: center;
+    }
+ 
+    .description h1 {
+        font-size: 2em;
+    }
+ 
+    .description p {
+        font-size: 1.2rem;
+    }
+ 
+    .features {
+        margin: 0;
+    }
+}
