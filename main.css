@@ -94,11 +94,11 @@
 	padding: 0 180px;
 }
 .team-title {
-    text-align: center; /* Centers the text */
-    font-size: 2rem; /* Makes it more prominent */
-    font-weight: 700; /* Adds emphasis */
-    margin-bottom: 1.5em; /* Adds spacing below the title */
-    color: #2C3639; /* Soft off-white for a matte effect */
+    text-align: center;
+    font-size: 2rem; 
+    font-weight: 700;
+    margin-bottom: 1.5em; 
+    color: #2C3639; 
 }
 .team .card-columns {
 	-webkit-column-count: 4;
